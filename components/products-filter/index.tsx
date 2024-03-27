@@ -43,7 +43,7 @@ const ProductsFilter = () => {
                 <div className="products-filter__block">
                     <button type="button">Price</button>
                     <div className="products-filter__block__content">
-                        <Range min={0} max={20} defaultValue={[3, 10]} tipFormatter={value => `${value}%`}/>
+                        <Range min={0} max={20} defaultValue={[0, 10]} tipFormatter={value => `${value}%`}/>
                     </div>
                 </div>
 
@@ -71,7 +71,6 @@ const ProductsFilter = () => {
                         </div>
                     </div>
                 </div>
-
                 <button type="submit" className="btn btn-submit btn--rounded btn--yellow">Apply</button>
             </div>
         </form>
