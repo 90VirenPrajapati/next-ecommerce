@@ -31,7 +31,6 @@ const cartSlice = createSlice({
         addProduct: (state, action: PayloadAction<AddProductType>) => {
             const cartItems = state.cartItems;
 
-            // find index of product
             const index = indexSameProduct(state, action.payload.product);
 
             if (index !== -1) {

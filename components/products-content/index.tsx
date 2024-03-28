@@ -16,6 +16,10 @@ const ProductsContent = () => {
                         <div className="select-wrapper">
                             <select>
                                 <option>Popular</option>
+                                <option>T-shirt</option>
+                                <option>Shirt</option>
+                                <option>Jeans</option>
+                                <option>Cargo-Pents</option>
                             </select>
                         </div>
                     </div>

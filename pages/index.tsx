@@ -22,7 +22,7 @@ const IndexPage = () => {
                     <article style={{backgroundImage: 'url(/images/featured-2.jpg)'}}
                              className="featured-item featured-item-small-first">
                         <div className="featured-item__content">
-                            <h3>Basic t-shirts $29,99</h3>
+                            <h3>Basic t-shirts $29.99</h3>
                             <a href="#" className="btn btn--rounded">More details</a>
                         </div>
                     </article>
