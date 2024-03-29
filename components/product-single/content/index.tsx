@@ -96,6 +96,7 @@ const Content = ({product}: ProductContent) => {
                         </div>
                     </div>
                 </div>
+
                 <div className="product-filter-item">
                     <h5>Quantity:</h5>
                     <div className="quantity-buttons">

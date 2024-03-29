@@ -15,7 +15,6 @@ const indexSameProduct = (state: CartTypes, action: ProductStoreType) => {
         product.color === action.color &&
         product.size === action.size
     );
-
     return state.cartItems.findIndex(sameProduct)
 };
 

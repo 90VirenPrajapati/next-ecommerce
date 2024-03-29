@@ -31,11 +31,10 @@ const ShoppingCart = () => {
                                 <th style={{textAlign: 'left'}}>Product</th>
                                 <th>Color</th>
                                 <th>Size</th>
-                                <th>Ammount</th>
+                                <th>Amount</th>
                                 <th>Price</th>
                                 <th></th>
                             </tr>
-
                             {cartItems.map(item => (
                                 <Item
                                     key={item.id}
@@ -51,12 +50,10 @@ const ShoppingCart = () => {
                             </tbody>
                         </table>
                     }
-
                     {cartItems.length === 0 &&
                         <p>Nothing in the cart</p>
                     }
                 </div>
-
                 <div className="cart-actions">
                     <a href="/products" className="cart__btn-back"><i className="icon-left"></i> Continue Shopping</a>
                     <input type="text" placeholder="Promo Code" className="cart__promo-code"/>

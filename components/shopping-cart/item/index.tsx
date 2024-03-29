@@ -36,10 +36,8 @@ const ShoppingCart = ({thumb, name, id, color, size, count, price}: ProductStore
             },
             count,
         }
-
         dispatch(setCount(payload))
     }
-
     return (
         <tr>
             <td>

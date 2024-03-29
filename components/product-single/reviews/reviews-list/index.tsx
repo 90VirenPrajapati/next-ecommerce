@@ -15,7 +15,6 @@ const ReviewsList = ({reviews}: ReviewsListType) => {
                     <div className="review__avatar">
                         <img src={review.avatar} alt="avatar"/>
                     </div>
-
                     <div className="review__content">
                         <h3>{review.name}</h3>
                         <Rater total={5} interactive={false} rating={review.punctuation}/>
@@ -29,4 +28,3 @@ const ReviewsList = ({reviews}: ReviewsListType) => {
 };
 
 export default ReviewsList;
-    

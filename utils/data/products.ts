@@ -136,24 +136,24 @@ export const products = [
             votes: [
                 {
                     value: 1,
-                    count: 1
+                    count: 1,
                 },
                 {
                     value: 2,
-                    count: 10
+                    count: 10,
                 },
                 {
                     value: 3,
-                    count: 10
+                    count: 10,
                 },
                 {
                     value: 4,
-                    count: 20
+                    count: 20,
                 },
                 {
                     value: 5,
-                    count: 40
-                },
+                    count: 40,
+                }
             ]
         },
         reviews: [
@@ -174,7 +174,7 @@ export const products = [
                 avatar: '/images/featured-1.jpg',
                 description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
                 punctuation: 5
-            },
+            }
         ]
     },
     {
