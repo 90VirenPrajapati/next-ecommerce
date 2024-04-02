@@ -8,7 +8,6 @@ const IndexPage = () => {
     return (
         <Layout>
             <PageIntro/>
-
             <section className="featured">
                 <div className="container">
                     <article style={{backgroundImage: 'url(/images/featured-1.jpg)'}}
@@ -18,7 +17,6 @@ const IndexPage = () => {
                             <a href="#" className="btn btn--rounded">Show Collection</a>
                         </div>
                     </article>
-
                     <article style={{backgroundImage: 'url(/images/featured-2.jpg)'}}
                              className="featured-item featured-item-small-first">
                         <div className="featured-item__content">
@@ -26,7 +24,6 @@ const IndexPage = () => {
                             <a href="#" className="btn btn--rounded">More details</a>
                         </div>
                     </article>
-
                     <article style={{backgroundImage: 'url(/images/featured-3.jpg)'}}
                              className="featured-item featured-item-small">
                         <div className="featured-item__content">
@@ -36,13 +33,11 @@ const IndexPage = () => {
                     </article>
                 </div>
             </section>
-
             <section className="section">
                 <div className="container">
                     <header className="section__intro">
                         <h4>Why should you choose us?</h4>
                     </header>
-
                     <ul className="shop-data-items">
                         <li>
                             <i className="icon-shipping"></i>
@@ -51,7 +46,6 @@ const IndexPage = () => {
                                 <p>All purchases over $199 are eligible for free shipping via USPS First Class Mail.</p>
                             </div>
                         </li>
-
                         <li>
                             <i className="icon-payment"></i>
                             <div className="data-item__content">
@@ -59,7 +53,6 @@ const IndexPage = () => {
                                 <p>All payments are processed instantly over a secure payment protocol.</p>
                             </div>
                         </li>
-
                         <li>
                             <i className="icon-cash"></i>
                             <div className="data-item__content">
@@ -68,7 +61,6 @@ const IndexPage = () => {
                                     back for a full refund.</p>
                             </div>
                         </li>
-
                         <li>
                             <i className="icon-materials"></i>
                             <div className="data-item__content">
@@ -80,13 +72,10 @@ const IndexPage = () => {
                     </ul>
                 </div>
             </section>
-
             <ProductsFeatured/>
             <Subscribe/>
             <Footer/>
         </Layout>
     )
 }
-
-
 export default IndexPage

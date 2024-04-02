@@ -10,7 +10,6 @@ type ForgotMail = {
 
 const ForgotPassword = () => {
     const {register, handleSubmit, errors} = useForm();
-
     const onSubmit = async (data: ForgotMail) => {
         const res = await postData(`${server}/api/login`, {
             email: data.email,
@@ -68,16 +67,13 @@ const ForgotPassword = () => {
                                     <p className="message message--error">This field is required</p>
                                 }
                             </div>
-
                             <button type="submit" className="btn btn--rounded btn--yellow btn-submit">Reset password
                             </button>
                         </form>
                     </div>
-
                 </div>
             </section>
         </Layout>
     )
 }
-
 export default ForgotPassword

@@ -1,5 +1,4 @@
 import {GetServerSideProps} from 'next'
-
 import {useState} from 'react';
 import Footer from '../../components/footer';
 import Layout from '../../layouts/Main';
@@ -11,7 +10,6 @@ import Description from '../../components/product-single/description';
 import Reviews from '../../components/product-single/reviews';
 import {server} from '../../utils/server';
 
-// types
 import {ProductType} from 'types';
 
 type ProductPageType = {
@@ -36,7 +34,6 @@ const Product = ({product}: ProductPageType) => {
     return (
         <Layout>
             <Breadcrumb/>
-
             <section className="product-single">
                 <div className="container">
                     <div className="product-single__content">

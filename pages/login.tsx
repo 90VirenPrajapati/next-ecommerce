@@ -44,8 +44,8 @@ const LoginPage = () => {
                                     type="text"
                                     name="email"
                                     ref={register({
-                                        required: true,
-                                        pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                                         required: true,
+                                         pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
                                     })}
                                 />
                                 {errors.email && errors.email.type === 'required' &&
@@ -107,7 +107,6 @@ const LoginPage = () => {
                             <p className="form__signup-link">Not a member yet? <a href="/register">Sign up</a></p>
                         </form>
                     </div>
-
                 </div>
             </section>
         </Layout>
