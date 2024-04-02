@@ -331,7 +331,7 @@ export const products = [
                 {
                     value: 5,
                     count: 40
-                },
+                }
             ]
         },
         reviews: [

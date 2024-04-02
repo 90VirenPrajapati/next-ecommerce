@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="container">
                 <div className="site-footer__top">
                     <div className="site-footer__description">
-                        <h6><Logo/> <span>E</span>-Shop</h6>
+                        <a href='/'><h6><Logo/> <span>E</span>-Shop</h6></a>
                         <p>House My Brand designs clothing for the young, the old & everyone in between – but most
                             importantly, for the fashionable</p>
                         <ul className="site-footer__social-networks">
@@ -34,6 +34,14 @@ const Footer = () => {
                             <li><a href="#">Newsletter</a></li>
                             <li><a href="#">Bacome a member</a></li>
                             <li><a href="#">Site feedback</a></li>
+                        </ul>
+                        <ul>
+                            <li>E-Shop</li>
+                            <li><a href='#'>Production</a></li>
+                            <li><a href='#'>Inspiration</a></li>
+                            <li><a href='#'>Rooms</a></li>
+                            <li><a href='#'>About Us</a></li>
+                            <li><a href='#'>Blog</a></li>
                         </ul>
                         <ul>
                             <li>Contact</li>

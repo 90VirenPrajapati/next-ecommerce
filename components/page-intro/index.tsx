@@ -13,7 +13,7 @@ const PageIntro = () => {
                         <div className="container">
                             <div className="page-intro__slide__content">
                                 <h2>Sale of the summer collection</h2>
-                                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+                                <a href="/products" className="btn-shop"><i className="icon-right"></i>Shop now</a>
                             </div>
                         </div>
                     </div>
@@ -25,6 +25,39 @@ const PageIntro = () => {
                             <div className="page-intro__slide__content">
                                 <h2>Make your house into a home</h2>
                                 <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className='page-intro__slide' style={{backgroundImage: "url('/images/')"}}>
+                        <div className='container'>
+                            <div className='page-intro__slide__content'>
+                                <h2>Make your own Business</h2>
+                                <a href='#' className='btn-shop'><i className='icon-right'></i>Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className='page-intro__slide' style={{backgroundImage: "url('/images/)"}}>
+                        <div className='container'>
+                            <div className='page-intro__slide__content'>
+                                <h2>This Season Popular Collection</h2>
+                                <a href='#' className='btn-shop'><i className='icon-right'></i>Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className='page-intro__slide' style={{backgroundImage: "url('/images/image3.jpg')"}}>
+                        <div className='container'>
+                            <div className='page-intro__slide__content'>
+                                <h2>Sale of this Season</h2>
+                                <a href='#' className='btn-shop'><i className='icon-right'></i>Shop now</a>
                             </div>
                         </div>
                     </div>

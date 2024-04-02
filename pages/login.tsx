@@ -17,7 +17,6 @@ const LoginPage = () => {
             email: data.email,
             password: data.password
         });
-
         console.log(res);
     };
 
@@ -46,7 +45,7 @@ const LoginPage = () => {
                                     name="email"
                                     ref={register({
                                         required: true,
-                                        pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                                        pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0  -9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
                                     })}
                                 />
                                 {errors.email && errors.email.type === 'required' &&
@@ -85,6 +84,14 @@ const LoginPage = () => {
                                     </label>
                                 </div>
                                 <a href="/forgot-password" className="form__info__forgot-password">Forgot password?</a>
+                            </div>
+
+                            <div className='form__info'>
+                                <div className='checkbox-wrapper'>
+                                    <label htmlFor='check-signed-in' className={`checkbox checkbox--sm`}>
+                                        
+                                    </label>
+                                </div>
                             </div>
 
                             <div className="form__btns">

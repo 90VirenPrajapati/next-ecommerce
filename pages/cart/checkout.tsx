@@ -12,7 +12,6 @@ const CheckoutPage = () => {
         if (cartItems.length > 0) {
             cartItems.map(item => totalPrice += item.price * item.count);
         }
-
         return totalPrice;
     })
 
@@ -38,50 +37,61 @@ const CheckoutPage = () => {
                                     <div className="form__input-row form__input-row--two">
                                         <div className="form__col">
                                             <input className="form__input form__input--sm" type="text"
-                                                   placeholder="Email"/>
+                                                   placeholder="Email" required/>
                                         </div>
 
                                         <div className="form__col">
                                             <input className="form__input form__input--sm" type="text"
-                                                   placeholder="Address"/>
-                                        </div>
-                                    </div>
-
-                                    <div className="form__input-row form__input-row--two">
-                                        <div className="form__col">
-                                            <input className="form__input form__input--sm" type="text"
-                                                   placeholder="First name"/>
-                                        </div>
-
-                                        <div className="form__col">
-                                            <input className="form__input form__input--sm" type="text"
-                                                   placeholder="City"/>
+                                                   placeholder="Address" required/>
                                         </div>
                                     </div>
 
                                     <div className="form__input-row form__input-row--two">
                                         <div className="form__col">
                                             <input className="form__input form__input--sm" type="text"
-                                                   placeholder="Last name"/>
+                                                   placeholder="First name" required/>
                                         </div>
 
                                         <div className="form__col">
                                             <input className="form__input form__input--sm" type="text"
-                                                   placeholder="Postal code / ZIP"/>
+                                                   placeholder="City" required/>
                                         </div>
                                     </div>
 
                                     <div className="form__input-row form__input-row--two">
                                         <div className="form__col">
                                             <input className="form__input form__input--sm" type="text"
-                                                   placeholder="Phone number"/>
+                                                   placeholder="Last name" required/>
+                                        </div>
+
+                                        <div className="form__col">
+                                            <input className="form__input form__input--sm" type="text"
+                                                   placeholder="Postal code / ZIP" required/>
+                                        </div>
+                                    </div>
+
+                                    <div className="form__input-row form__input-row--two">
+                                        <div className="form__col">
+                                            <input className="form__input form__input--sm" type="text"
+                                                   placeholder="Phone number" required/>
                                         </div>
 
                                         <div className="form__col">
                                             <div className="select-wrapper select-form">
                                                 <select>
-                                                    <option>Country</option>
-                                                    <option value="Argentina">Argentina</option>
+                                                    <option>State</option>
+                                                    <option value="Argentina">Gujarat</option>
+                                                    <option value="Argentina">Rajasthan</option>
+                                                    <option value="Argentina">Punjab</option>
+                                                    <option value="Argentina">Haryana</option>
+                                                    <option value="Argentina">Delhi</option>
+                                                    <option value="Argentina">Mumbai</option>
+                                                    <option value="Argentina">Pune</option>
+                                                    <option value="Argentina">Chennai</option>
+                                                    <option value="Argentina">Bangalore</option>
+                                                    <option value="Argentina">Assam</option>
+                                                    <option value="Argentina">UP</option>
+                                                    <option value="Argentina">MP</option>
                                                 </select>
                                             </div>
                                         </div>
