@@ -65,6 +65,11 @@ const RegisterPage = () => {
                                        onChange={handleChange}/>
                             </div>
 
+                            <div className='form__input-row'>
+                                <input className='form__input' type='password' placeholder='Confirm Password'
+                                       onChange={handleChange}/>
+                            </div>
+
                             <div className="form__info">
                                 <div className="checkbox-wrapper">
                                     <label htmlFor="check-signed-in" className={`checkbox checkbox--sm`}>

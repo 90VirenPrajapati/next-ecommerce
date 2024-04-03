@@ -67,6 +67,18 @@ const ForgotPassword = () => {
                                     <p className="message message--error">This field is required</p>
                                 }
                             </div>
+                            <div className='form__input-row'>
+                                <input
+                                    className='form__input'
+                                    type='password'
+                                    placeholder='Confirm Password'
+                                    name='password'
+                                    ref={register({required: true})}
+                                />
+                                {errors.password && errors.password.type === 'required' &&
+                                    <p className='message message--error'>This field is required</p>
+                                }
+                            </div>
                             <button type="submit" className="btn btn--rounded btn--yellow btn-submit">Reset password
                             </button>
                         </form>

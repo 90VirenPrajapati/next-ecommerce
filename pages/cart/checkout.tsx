@@ -19,7 +19,6 @@ const deliveryMethods = [
     {name: 'Maestro', src: '/images/logos/maestro.png', price: '$10.00'}
 ]
 const CheckoutPage = () => {
-
     const priceTotal = useSelector((state: RootState) => {
         const cartItems = state.cart.cartItems;
         let totalPrice = 0;
@@ -113,7 +112,7 @@ const CheckoutPage = () => {
                                     {deliveryMethods.map((method, index) => (
                                         <li key={index} className="round-item round-item--bg">
                                             <img src={method.src} alt={method.name}/>
-                                            <p>{method.price}</p>
+                                            <p>{method.price}</p> 
                                         </li>
                                     ))}
                                 </ul>

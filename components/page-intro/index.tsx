@@ -31,17 +31,6 @@ const PageIntro = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div className='page-intro__slide' style={{backgroundImage: "url('/images/')"}}>
-                        <div className='container'>
-                            <div className='page-intro__slide__content'>
-                                <h2>Make your own Business</h2>
-                                <a href='#' className='btn-shop'><i className='icon-right'></i>Shop now</a>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
                     <div className='page-intro__slide' style={{backgroundImage: "url('/images/)"}}>
                         <div className='container'>
                             <div className='page-intro__slide__content'>
@@ -74,7 +63,6 @@ const PageIntro = () => {
                                 <p>On purchases over $199</p>
                             </div>
                         </li>
-
                         <li>
                             <i className="icon-shipping"></i>
                             <div className="data-item__content">
@@ -82,7 +70,6 @@ const PageIntro = () => {
                                 <p>Our clients' opinions speak for themselves</p>
                             </div>
                         </li>
-
                         <li>
                             <i className="icon-cash"></i>
                             <div className="data-item__content">
